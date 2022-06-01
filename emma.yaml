@@ -1,6 +1,11 @@
-pipeline{
-	agent any
-	stages{
-		stage('1-git-clone'){
-			steps{
-				echo 'am an engineer'
+pipeline {
+     agent any
+     
+     stages {
+         stage('Emmanuel') {
+	     steps  {
+	         echo 'Am learning'
+	      }
+	  }
+      }
+ }     
