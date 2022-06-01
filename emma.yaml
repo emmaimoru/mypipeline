@@ -3,14 +3,4 @@ pipeline{
 	stages{
 		stage('1-git-clone'){
 			steps{
-				sh 'git --version'
-				sh 'git clone'
-			}
-		}
-		stage('2-mavenbuild'){
-			steps{
-				echo 'Am devop engineer'
-			}
-		}
-	}
-}
+				echo 'am an engineer'
