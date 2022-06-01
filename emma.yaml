@@ -9,7 +9,7 @@ pipeline{
 		}
 		stage('2-mavenbuild'){
 			steps{
-				echo 'Am a devop engineer'
+				echo 'Am devop engineer'
 			}
 		}
 	}
